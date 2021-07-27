@@ -1,0 +1,37 @@
+{
+    "name": "bilibili_bullet_screen",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon ./src/app.ts",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@tsconfig/node16": "^1.0.1",
+        "@types/koa": "^2.13.4",
+        "@types/koa-bodyparser": "^4.3.2",
+        "@types/koa-convert": "^1.2.3",
+        "@types/koa-router": "^7.4.3",
+        "@types/koa-static": "^4.0.2",
+        "@types/superagent": "^4.1.12",
+        "nodemon": "^2.0.9",
+        "ts-node": "^10.0.0",
+        "tslint-eslint-rules": "^5.4.0",
+        "typescript": "^4.3.5"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "cheerio": "^1.0.0-rc.10",
+        "ibili": "^1.1.1",
+        "koa": "^2.13.1",
+        "koa-bodyparser": "^4.3.0",
+        "koa-router": "^10.0.0",
+        "koa-static": "^5.0.0",
+        "koa2-cors": "^2.0.6",
+        "mongoose": "^5.13.2",
+        "websect": "^1.1.2"
+    }
+}
